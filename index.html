@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IronFit Gym — Postani jači nego jučer</title>
+<meta name="description" content="IronFit Gym Split — teretana, grupni treninzi i personalni trening. Pridruži se danas.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============ NAVIGACIJA ============ -->
+<header class="nav" id="nav">
+  <div class="nav__inner">
+    <a href="#top" class="nav__logo">IRON<span>FIT</span></a>
+    <nav class="nav__links" id="navLinks">
+      <a href="#o-nama">O nama</a>
+      <a href="#usluge">Usluge</a>
+      <a href="#cjenik">Cjenik</a>
+      <a href="#galerija">Galerija</a>
+      <a href="#kontakt">Kontakt</a>
+      <a href="#kontakt" class="nav__cta">Pridruži se</a>
+    </nav>
+    <button class="nav__burger" id="burger" aria-label="Otvori izbornik" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="top">
+  <div class="hero__bg" aria-hidden="true"></div>
+  <div class="hero__grid" aria-hidden="true"></div>
+  <div class="hero__content">
+    <p class="eyebrow reveal">IRONFIT GYM · SPLIT</p>
+    <h1 class="hero__title">
+      <span class="reveal" style="--d:0">POSTANI</span>
+      <span class="reveal" style="--d:1">JAČI</span>
+      <span class="reveal hero__title--outline" style="--d:2">NEGO JUČER</span>
+    </h1>
+    <p class="hero__sub reveal" style="--d:3">Teretana, grupni treninzi i personalni trening u srcu Splita. Bez isprika, samo napredak.</p>
+    <div class="hero__actions reveal" style="--d:4">
+      <a href="#kontakt" class="btn btn--primary">Pridruži se odmah</a>
+      <a href="#usluge" class="btn btn--ghost">Pogledaj usluge</a>
+    </div>
+  </div>
+
+  <div class="hero__stats reveal" style="--d:5">
+    <div class="stat"><span class="stat__num" data-count="450">0</span><span class="stat__label">Aktivnih članova</span></div>
+    <div class="stat"><span class="stat__num" data-count="12">0</span><span class="stat__label">Godina iskustva</span></div>
+    <div class="stat"><span class="stat__num" data-count="8">0</span><span class="stat__label">Certificiranih trenera</span></div>
+  </div>
+
+  <a href="#o-nama" class="hero__scroll" aria-label="Skroluj dolje">
+    <span></span>
+  </a>
+</section>
+
+<!-- ============ TRAKA / MARQUEE ============ -->
+<div class="marquee">
+  <div class="marquee__track">
+    <span>TRENIRAJ JAČE&nbsp;•&nbsp;</span><span>BEZ ISPRIKA&nbsp;•&nbsp;</span><span>SVAKI DAN NAPREDAK&nbsp;•&nbsp;</span><span>OSTANI DOSLJEDAN&nbsp;•&nbsp;</span>
+    <span>TRENIRAJ JAČE&nbsp;•&nbsp;</span><span>BEZ ISPRIKA&nbsp;•&nbsp;</span><span>SVAKI DAN NAPREDAK&nbsp;•&nbsp;</span><span>OSTANI DOSLJEDAN&nbsp;•&nbsp;</span>
+  </div>
+</div>
+
+<!-- ============ O NAMA ============ -->
+<section class="about" id="o-nama">
+  <div class="container about__grid">
+    <div class="about__text reveal-on-scroll">
+      <p class="eyebrow">O nama</p>
+      <h2 class="section-title">Mjesto gdje se granice pomiču, ne poštuju.</h2>
+      <p class="about__desc">IronFit Gym je prostor napravljen za ljude koji žele više od sebe. Bez obzira treniraš li tek prvi mjesec ili se spremaš za natjecanje, kod nas ćeš dobiti opremu, ekipu i vodstvo koje ti treba da progresiraš — trening za treningom.</p>
+      <ul class="about__list">
+        <li>Vrhunska oprema za snagu i kondiciju</li>
+        <li>Prijateljska i motivirajuća atmosfera</li>
+        <li>Programi za sve razine, od početnika do naprednih</li>
+      </ul>
+    </div>
+    <div class="about__visual reveal-on-scroll">
+      <div class="about__plate"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ USLUGE ============ -->
+<section class="services" id="usluge">
+  <div class="container">
+    <p class="eyebrow reveal-on-scroll">Što nudimo</p>
+    <h2 class="section-title reveal-on-scroll">Naše usluge</h2>
+
+    <div class="cards">
+      <article class="card reveal-on-scroll">
+        <div class="card__icon">
+          <svg viewBox="0 0 48 48" fill="none"><path d="M6 24h4M38 24h4M14 24h20M10 17v14M38 17v14M14 12v24M34 12v24" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg>
+        </div>
+        <h3>Teretana</h3>
+        <p>Potpuno opremljena dvorana sa spravama za snagu, slobodnim utezima i kardio zonom, otvorena svaki dan.</p>
+      </article>
+
+      <article class="card reveal-on-scroll">
+        <div class="card__icon">
+          <svg viewBox="0 0 48 48" fill="none"><circle cx="16" cy="12" r="4" stroke="currentColor" stroke-width="3"/><circle cx="32" cy="12" r="4" stroke="currentColor" stroke-width="3"/><path d="M8 40c0-6 4-11 8-11s8 5 8 11M24 40c0-6 4-11 8-11s8 5 8 11" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg>
+        </div>
+        <h3>Grupni treninzi</h3>
+        <p>Energični satovi u malim grupama — HIIT, funkcionalni trening i kondicijski programi uz vrhunske instruktore.</p>
+      </article>
+
+      <article class="card reveal-on-scroll">
+        <div class="card__icon">
+          <svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="12" r="6" stroke="currentColor" stroke-width="3"/><path d="M10 40c0-8 6-14 14-14s14 6 14 14" stroke="currentColor" stroke-width="3" stroke-linecap="round"/><path d="M24 22v10M20 27h8" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg>
+        </div>
+        <h3>Personalni trener</h3>
+        <p>Individualno vođeni program prilagođen tvojim ciljevima, s praćenjem napretka i punom posvećenošću trenera.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CJENIK ============ -->
+<section class="pricing" id="cjenik">
+  <div class="container">
+    <p class="eyebrow reveal-on-scroll">Članarine</p>
+    <h2 class="section-title reveal-on-scroll">Odaberi svoj plan</h2>
+
+    <div class="pricing__grid">
+      <div class="price-card reveal-on-scroll">
+        <h3>Mjesečna</h3>
+        <div class="price-card__amount"><span>35</span>€<small>/mj</small></div>
+        <ul>
+          <li>Neograničen pristup teretani</li>
+          <li>Grupni treninzi uključeni</li>
+          <li>Bez obveze na dulje razdoblje</li>
+        </ul>
+        <a href="#kontakt" class="btn btn--outline">Odaberi plan</a>
+      </div>
+
+      <div class="price-card price-card--popular reveal-on-scroll">
+        <span class="price-card__badge">Najpopularnije</span>
+        <h3>Tromjesečna</h3>
+        <div class="price-card__amount"><span>90</span>€<small>/3 mj</small></div>
+        <ul>
+          <li>Sve iz mjesečnog plana</li>
+          <li>Ušteda u odnosu na mjesečno plaćanje</li>
+          <li>1 besplatan uvodni trening s PT-om</li>
+        </ul>
+        <a href="#kontakt" class="btn btn--primary">Odaberi plan</a>
+      </div>
+
+      <div class="price-card reveal-on-scroll">
+        <h3>Godišnja</h3>
+        <div class="price-card__amount"><span>320</span>€<small>/god</small></div>
+        <ul>
+          <li>Najveća ušteda na godišnjoj razini</li>
+          <li>Prioritetna rezervacija termina</li>
+          <li>Popust na personalni trening</li>
+        </ul>
+        <a href="#kontakt" class="btn btn--outline">Odaberi plan</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ GALERIJA ============ -->
+<section class="gallery" id="galerija">
+  <div class="container">
+    <p class="eyebrow reveal-on-scroll">Atmosfera</p>
+    <h2 class="section-title reveal-on-scroll">Galerija</h2>
+    <div class="gallery__grid">
+      <div class="gallery__item reveal-on-scroll"><img src="https://picsum.photos/seed/ironfit1/600/450" alt="Teretana - dvorana za trening" loading="lazy"></div>
+      <div class="gallery__item reveal-on-scroll"><img src="https://picsum.photos/seed/ironfit2/600/450" alt="Teretana - oprema za snagu" loading="lazy"></div>
+      <div class="gallery__item reveal-on-scroll"><img src="https://picsum.photos/seed/ironfit3/600/450" alt="Grupni trening" loading="lazy"></div>
+      <div class="gallery__item reveal-on-scroll"><img src="https://picsum.photos/seed/ironfit4/600/450" alt="Personalni trening" loading="lazy"></div>
+      <div class="gallery__item reveal-on-scroll"><img src="https://picsum.photos/seed/ironfit5/600/450" alt="Kardio zona" loading="lazy"></div>
+      <div class="gallery__item reveal-on-scroll"><img src="https://picsum.photos/seed/ironfit6/600/450" alt="Ulaz u teretanu" loading="lazy"></div>
+    </div>
+    <p class="gallery__hint">* Ovo su privremene (placeholder) fotografije bez autorskih prava, samo za prikaz kupcu. Prije predaje zamijeni ih stvarnim fotkama teretane ili licenciranim slikama (Unsplash/Pexels download, ne hotlink).</p>
+  </div>
+</section>
+
+<!-- ============ KONTAKT ============ -->
+<section class="contact" id="kontakt">
+  <div class="container contact__grid">
+    <div class="contact__info reveal-on-scroll">
+      <p class="eyebrow">Kontakt</p>
+      <h2 class="section-title">Vidimo se u teretani</h2>
+      <p class="contact__desc">Javi nam se za sva pitanja o članarinama, treninzima ili terminu s personalnim trenerom.</p>
+
+      <ul class="contact__details">
+        <li>
+          <svg viewBox="0 0 24 24" fill="none"><path d="M4 4h4l2 5-2 2c1 2 3 4 5 5l2-2 5 2v4a2 2 0 0 1-2 2C10 22 2 14 2 6a2 2 0 0 1 2-2z" stroke="currentColor" stroke-width="1.6"/></svg>
+          <a href="tel:+385991234567">+385 99 123 4567</a>
+        </li>
+        <li>
+          <svg viewBox="0 0 24 24" fill="none"><rect x="3" y="5" width="18" height="14" rx="2" stroke="currentColor" stroke-width="1.6"/><path d="M3 7l9 6 9-6" stroke="currentColor" stroke-width="1.6"/></svg>
+          <a href="mailto:info@ironfit.hr">info@ironfit.hr</a>
+        </li>
+        <li>
+          <svg viewBox="0 0 24 24" fill="none"><path d="M12 22s7-7.2 7-12a7 7 0 1 0-14 0c0 4.8 7 12 7 12z" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="10" r="2.5" stroke="currentColor" stroke-width="1.6"/></svg>
+          <span>Zagrebačka 15, Split</span>
+        </li>
+      </ul>
+    </div>
+
+    <form class="contact__form reveal-on-scroll" id="contactForm">
+      <div class="form__row">
+        <label>Ime i prezime
+          <input type="text" name="name" required placeholder="Tvoje ime">
+        </label>
+        <label>Email
+          <input type="email" name="email" required placeholder="tvoj@email.com">
+        </label>
+      </div>
+      <label>Poruka
+        <textarea name="message" rows="4" required placeholder="Zanima me..."></textarea>
+      </label>
+      <button type="submit" class="btn btn--primary">Pošalji upit</button>
+      <p class="form__note" id="formNote"></p>
+    </form>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="container footer__inner">
+    <a href="#top" class="nav__logo">IRON<span>FIT</span></a>
+    <div class="footer__social">
+      <a href="#" aria-label="Instagram">
+        <svg viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="18" height="18" rx="5" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.6"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg>
+      </a>
+      <a href="#" aria-label="Facebook">
+        <svg viewBox="0 0 24 24" fill="none"><path d="M14 8h2V5h-2c-2 0-3.5 1.5-3.5 3.5V11H8v3h2.5v6h3v-6H16l.5-3h-3V9c0-.6.4-1 1-1z" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/></svg>
+      </a>
+      <a href="#" aria-label="TikTok">
+        <svg viewBox="0 0 24 24" fill="none"><path d="M14 3v10.5a3.5 3.5 0 1 1-3-3.46" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><path d="M14 3c0 3 2 5 4 5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+      </a>
+    </div>
+    <p class="footer__copy">© <span id="year"></span> IronFit Gym. Sva prava pridržana.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
